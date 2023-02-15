@@ -24,6 +24,10 @@ Commons */
     background: rgb(27, 114, 232);
 }
 
+/* bell */
+.__bell-color{
+    color: rgb(255, 143, 0);
+   }
 
 /*-------------------------- 
 Colors */
@@ -39,6 +43,16 @@ Colors */
 
 .__mynav form input{
     background: rgb(229, 229, 229);
+}
+
+.__dropdown-position{
+    left:-140px !important; 
+}
+
+
+.__nav-icon i:hover {
+    color:rgb(27, 114, 232)
+
 }
 
 /* -------------------------
