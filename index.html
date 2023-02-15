@@ -20,13 +20,74 @@
     <div class="__all-container">
 
        
-        <nav class="__mynav navbar bg-light">
-            <div class="container-fluid p-0">
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+        <nav class="__mynav navbar bg-light p-0">
+            
+            <div class="container-fluid d-flex flex-nowrap p-0 h-100">
+
+            <!-- Logo ---------->
+                <div class="h-100 d-flex align-items-center">
+                    <a class="navbar-brand d-flex align-items-center h-75" href="#">
+                        <!-- desktop -->
+                        <img class="d-none d-sm-inline-block h-100 py-2 ms-2" src="img/logo.svg" alt="logo">
+
+                        <!-- mobile -->
+                        <img class="d-inline-block d-sm-none h-100" src="img/mobile-logo.png" alt="logo">
+                    </a>
+                </div>
+
+            <!-- /Logo --------->
+
+                
+            <!-- Serchbar ------->
+                <form class="d-flex position-relative w-100 " role="search">
+
+                    <input class="form-control ps-5" type="search" placeholder="Prova a cercare: Laravel" aria-label="Search">
+
+                    <button class="btn btn-outline border-0 bg-transparent position-absolute" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
                 </form>
+            <!-- /Serchbar ------>
+
+            <!-- icons ---------->
+                <div class="h-100">
+                    <ul class="list-group-horizontal d-flex align-items-center h-100 ps-2">
+
+                        <li class="list-group-item pe-2">
+                            <a class="text-dark" href="#">
+                                <i class="fa-solid fa-list"></i>
+                            </a>
+                        </li>
+
+                        
+                        <li class="list-group-item pe-2">
+                            <a class="text-dark" href="#">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </a>
+                        </li>
+
+                        
+                        <li class="list-group-item pe-2">
+                            <a class="text-dark" href="#">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+
+                        
+                        <li class="list-group-item pe-2">
+                            <a class="text-dark" href="#">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            <!-- /icons ---------->
+
             </div>
+
         </nav>
        
 
