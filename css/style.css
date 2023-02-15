@@ -1,13 +1,9 @@
-.__all-container{
-    width: 100vw;
-    height:100vh;
-    background: #00000029;
-}
-
-
 /* Commons 
 ---------------------------*/
-
+.__all-container{
+    width: 100vw;
+    height: 100vh;
+}
 
 /*-------------------------- 
 Commons */
@@ -15,6 +11,7 @@ Commons */
 
 /* Colors 
 ---------------------------*/
+
 /* jumbo */
 .__p-color{
  color: rgb(27, 114, 232)
@@ -27,7 +24,7 @@ Commons */
 /* bell */
 .__bell-color{
     color: rgb(255, 143, 0);
-   }
+}
 
 /*-------------------------- 
 Colors */
@@ -57,3 +54,26 @@ Colors */
 
 /* -------------------------
 Navbar */
+
+
+
+/* Sidebar 
+-------------------------*/
+
+.__mysidenav{
+    height: calc(100% - 70px);
+    width: 150px;
+    background-color: rgb(5, 30, 52);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+}
+
+/* -----------------------
+Sidebar */
+
+
+@media screen and (max-width: 767px){
+    .__mysidenav{
+        width: 60px;
+    }
+} 
