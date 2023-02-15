@@ -1,0 +1,15 @@
+.__all-container{
+    width: 100vw;
+    height:100vh;
+    background: #00000029;
+}
+
+/* Navbar 
+---------------------------*/
+
+.__mynav{
+    height: 70px;
+}
+
+/* -------------------------
+Navbar */
