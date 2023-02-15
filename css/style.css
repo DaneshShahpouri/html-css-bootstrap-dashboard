@@ -110,6 +110,10 @@
     justify-content: flex-start;
     height: 100%;
 }
+
+.__offcanvas-wrapper .offcanvas{
+    width: 100%;
+}
 /* -----------------------
 /Main */
 
@@ -134,6 +138,10 @@
     .__main-position{
         width:calc(100% - 150px);
         left:150px;
+    }
+
+    .__offcanvas-wrapper .offcanvas{
+        width: 75%;
     }
 
 } 

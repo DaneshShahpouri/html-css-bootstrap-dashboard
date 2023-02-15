@@ -228,13 +228,122 @@
     
                                 <div class="offcanvas-header">
     
-                                    <h5 id="offcanvasRightLabel" class="text-dark">Offcanvas right</h5>
+                                    <h5 id="offcanvasRightLabel" class="text-dark">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 
                                 </div>
     
                                 <div class="offcanvas-body">
-                                    ...
+                                    <div class="container-fluid">
+                                        <form class="text-dark">
+
+                                            <!-- FORM -->
+                                            <div class="row gx-2 gy-2">
+
+                                                <!-- nome -->
+                                                <div class="col-6">
+                                                    <label class="" for="fname">Nome</label><br>
+                                                    <input class="form-control" type="text" id="fname" name="fname"><br>
+                                                </div>
+    
+                                                <!-- cognome -->
+                                                <div class="col-6">
+                                                    <label class="" for="lname">Cognome</label><br>
+                                                    <input class="form-control" type="text" id="lname" name="lname"><br>
+                                                </div>
+    
+                                                <!-- email1 -->
+                                                <div class="col-6">
+                                                    <label class="" for="email">Email</label><br>
+
+                                                    <div class="input-group">
+
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text rounded-0 rounded-start" id="basic-addon1">@</span>
+                                                        </div>
+    
+                                                        <input class="form-control rounded-end" type="email" id="email" name="email" aria-label="email" aria-describedby="basic-addon1"><br>
+                                                   
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <label class="" for="pass-email">Password</label><br>
+                                                    <input class="form-control" type="password" id="email" name="email"><br>
+                                                </div>
+
+                                                <!-- email2 -->
+                                                <div class="col-6">
+                                                    
+                                                    <label class="" for="email">Indirizzo email</label><br>
+
+                                                    <div class="input-group">
+
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text rounded-0 rounded-start" id="basic-addon1">@</span>
+                                                        </div>
+    
+                                                        <input class="form-control rounded-end" type="email" id="email" name="email" aria-label="email" aria-describedby="basic-addon1"><br>
+                                                   
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6">
+                                                    <label class="" for="pass-email">Password</label><br>
+                                                    <input class="form-control" type="password" id="email" name="email"><br>
+                                                </div>
+
+                                                <!-- indirizzo -->
+                                                <div class="col-12">
+                                                    <label class="" for="indirizzo">Indirizzo</label><br>
+                                                    <input class="form-control" type="text" id="indirizzo" name="indirizzo"><br>
+                                                </div>
+
+                                                
+                                                <div class="col-6">
+                                                    <label class="" for="city">Città</label><br>
+                                                    <input class="form-control" type="text" id="city" name="city"><br>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <label class="text-black" for="country">Stato</label>
+                                                    <select class="form-control" id="country" name="country">
+                                                        <option>Italy</option>
+                                                        <option>France</option>
+                                                        <option>Iran</option>
+                                                        <option>Sacro Romano Impero</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-2">
+                                                    <label class="" for="cap">Cap</label><br>
+                                                    <input class="form-control" type="text" id="cap" name="cap"><br>
+                                                </div>
+
+                                                <!--  foto  -->
+                                                <div class="col-12">
+                                                    <label class="" for="photo">Foto</label><br>
+
+                                                    <input class="form-control rounded-end" type="file" id="photo" name="photo" aria-label="photo" aria-describedby="basic-addon1" placeholder="Nessun file selezionato"><br>
+                                                </div>
+
+                                                <!--  checkbox  -->
+                                                <div class="col-12 d-flex"> 
+                                                    <input class="d-inline-block me-2" type="checkbox" id="agree" name="agree" aria-label="agree" aria-describedby="basic-addon1" placeholder="Nessun file selezionato"><br>
+                                                    <label class="d-inline-block" for="agree">Seleziona per proseguire</label>
+                                                </div>
+
+                                                <div class="col">
+                                                    <input class="btn btn-primary" type="submit" value="Salva">
+
+                                                    <input class="btn btn-warning" type="submit" value="Svuota">
+                                                </div>
+
+                                            </div>
+
+                                        </form>
+
+                                    </div>
                                 </div>
                             </div>
 
