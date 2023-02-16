@@ -47,6 +47,13 @@
 .__my-bc-bg-color:hover{
     background-color: rgb(74, 128, 203);
 }
+
+.__code-bg-color{
+    background-color: rgb(242, 101, 81);
+    width:25px; height:25px;
+    min-width:25px; min-height:25px;
+}
+
 /*-------------------------- 
 /Colors */
 
@@ -117,6 +124,21 @@
 .__offcanvas-wrapper .offcanvas{
     width: 100%;
 }
+
+/* Table-size */
+
+.__code-bg-color i{
+    transform: translateX(2px);
+}
+
+.__col-size-primary{
+    max-width: 33,3%;
+}
+
+.__col-size-secondary{
+    max-width: 33,3%;
+}
+
 /* -----------------------
 /Main */
 
@@ -129,6 +151,15 @@
     /* Offcanvars */
     .__offcanvas-wrapper{
         justify-content: flex-end;
+    }
+
+    /* Table-size */
+    .__col-size-primary{
+        max-width: 39%;
+    }
+
+    .__col-size-secondary{
+        max-width: 15%;
     }
 }
 
@@ -145,6 +176,15 @@
 
     .__offcanvas-wrapper .offcanvas{
         width: 75%;
+    }
+
+    /* Table-size */
+    .__col-size-primary{
+        max-width: 60%;
+    }
+
+    .__col-size-secondary{
+        max-width: 10%;
     }
 
 } 

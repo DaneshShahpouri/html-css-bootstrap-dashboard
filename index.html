@@ -170,9 +170,9 @@
 
         <!-- MAIN -->
         <main class="position-absolute __main-position">
-
+            
+            <!-- Main header -->
             <div class="container-fluid p-0 m-0 mb-3 __p-bcolor text-white">
-                <!-- Main header -->
                 <div class="row row-cols-1 row-cols-md-3 m-0">
                     
                     <!-- Title and breadcrumb -->
@@ -213,14 +213,14 @@
                     </div>
 
                     
-                    
+                    <!-- nuovo studente -->
                     <div class="col col-12 col-md-3 col-sm-4 order-1 order-sm-3">
 
 
                         <!-- Offcanvas -->
-                        <div class="__offcanvas-wrapper d-flex align-items-start mt-2">
+                        <div class="__offcanvas-wrapper d-flex align-items-start me-5 mt-3">
 
-                            <span class="me-2 __my-font-size-1">Nuovo studente</span>
+                            <span class="me-2 mt-1 __my-font-size-1">Nuovo studente</span>
 
                             <button class="btn btn-outline-light px-2 py-0 fs-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
     
@@ -361,25 +361,360 @@
                 <div class="row row-cols-1 row-cols-md-2 m-0">
 
                     <!-- Left-side -->
-                    <div class="col-md-9 debug">
-                        left-side
+                    <div class="col-md-8">
+                         
+                        <div class="card mb-4">
+                            <h5 class="card-header">Prossime classi</h5>
+                            <div class="card-body">
+                                
+                                <table class="table table-hover border-1">
+                                    <thead>
+                                      <tr>
+                                        <th class="__my-font-size-2 text-secondary __col-size-primary" scope="col" >Nome</th>
+                                        <th class="__my-font-size-2 text-secondary __col-size-secondary d-none d-sm-table-cell" scope="col">Data di inizio</th>
+                                        <th class="__my-font-size-2 text-secondary __col-size-secondary d-none d-sm-table-cell" scope="col">RDI</th>
+                                        <th class="__my-font-size-2 text-secondary __col-size-secondary" scope="col">Stato</th>
+                                        <th class="__my-font-size-2 text-secondary __col-size-secondary" scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody class="__my-font-size-2">
+                                        
+                                        <!-- Class 1 -->
+                                        <tr>
+                                            <td class="fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 76</h6>
+                                                </div>
+                                            </td>
 
-                        <div class="debug">
+                                            <td class="d-none d-sm-table-cell">15 Febbraio</td>
+
+                                            <td class="d-none d-sm-table-cell">20%</td>
+
+                                            <td>
+                                                <span class="bg-success rounded-3 text-white px-1">Done</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+
+                                        <!-- Class 2 -->
+                                        <tr>
+                                            <td class="fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 76</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">16 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-success rounded-3 text-white px-1">Done</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                      
+
+                                        <!-- Class 3 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 75</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">17 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-warning rounded-3 text-white px-1">Process</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Class 4 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 76</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">18 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-success rounded-3 text-white px-1">Done</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Class 5 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 77</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">19 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-danger rounded-3 text-white px-1">Failed</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Class 6 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 79</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">20 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-success rounded-3 text-white px-1">Done</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Class 7 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 80</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">21 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-danger rounded-3 text-white px-1">Failed</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        <!-- Class 8 -->
+                                        <tr>
+                                            <td class=" fs-6">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="__code-bg-color rounded-circle me-1">
+                                                        <i class="fa-solid fa-code text-white"></i>
+                                                    </div>
+                                                    <h6>Classe 81</h6>
+                                                </div>
+                                            </td>
+                                            <td class="d-none d-sm-table-cell">22 Febbraio</td>
+                                            <td class="d-none d-sm-table-cell">20%</td>
+                                            <td>
+                                                <span class="bg-success rounded-3 text-white px-1">Done</span>
+                                            </td>
+
+                                            <td>
+                                                <div class="d-flex">
+                                                    <button class="btn btn-outline-secondary py-0 px-2 me-1">
+                                                        <i class="fa-solid fa-pen __my-font-size-2"></i>
+                                                    </button>
+                                                    <button class="btn btn-outline-secondary  py-0 px-2">
+                                                        <i class="fa-solid fa-trash __my-font-size-2"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                  </table>
+                                
+                            </div>
                         </div>
 
-                        <div class="debug">
+                        <div class="card mb-4">
+                            <h5 class="card-header">F.A.Q.</h5>
+                            <div class="card-body">
+
+                                <div class="accordion accordion-flush" id="prova-accordion">
+                                    <div class="accordion-item">
+                                        <h2  class="accordion-header" id="hquest-1">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#quest-1" aria-expanded="false" aria-controls="quest-1">
+                                                Come aggiungere un nuovo studente?
+                                            </button>
+                                        </h2>
+                                        <div id="quest-1" class="accordion-collapse collapse p-3 __my-font-size-1" aria-labelledby="quest-1" data-bs-parent="#prova-accordion">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora enim ad odio ex, odit fugiat obcaecati officia? Quisquam enim, minus aperiam perferendis, esse suscipit, reiciendis fuga laboriosam voluptatum necessitatibus eaque.
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2  class="accordion-header" id="hquest-2">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#quest-2" aria-expanded="false" aria-controls="quest-2">
+                                                Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                        </h2>
+                                        <div id="quest-2" class="accordion-collapse collapse p-3 __my-font-size-1" aria-labelledby="quest-2" data-bs-parent="#prova-accordion">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora enim ad odio ex, odit fugiat obcaecati officia? Quisquam enim, minus aperiam perferendis, esse suscipit, reiciendis fuga laboriosam voluptatum necessitatibus eaque.
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2  class="accordion-header" id="hquest-3">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#quest-3" aria-expanded="false" aria-controls="quest-3">
+                                                Posso usare questa dashboard da mobile?
+                                            </button>
+                                        </h2>
+                                        <div id="quest-3" class="accordion-collapse collapse p-3 __my-font-size-1" aria-labelledby="quest-3" data-bs-parent="#prova-accordion">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora enim ad odio ex, odit fugiat obcaecati officia? Quisquam enim, minus aperiam perferendis, esse suscipit, reiciendis fuga laboriosam voluptatum necessitatibus eaque.
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
 
                     <!-- right-side -->
-                    <div class="col-md-3 debug">
-                        right-side
+                    <div class="col-md-4">
 
-                        <div class="debug">
+                        <div class="card mb-4">
+                            <h5 class="card-header">Prova</h5>
+                            <div class="card-body">
+                                
+                                <ul class="list-group list-group __my-font-size-2">
+
+                                    <li class="list-group-item">
+                                        <input type="checkbox" id="list-item-agree">
+                                        <label for="list-item-agree">Kickoff nuove classi</label>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <input type="checkbox" id="list-item-agree-2">
+                                        <label for="list-item-agree-2">Lezioni su bootstrap 5 in classe#75</label>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <input type="checkbox" id="list-item-agree-3">
+                                        <label for="list-item-agree-3">Controlla username gitub studenti</label>
+                                    </li>
+
+                                </ul>
+                                
+                            </div>
                         </div>
 
-                        <div class="debug">
+
+                        <div class="card mb-4">
+
+                            <img class="img-fluid" src="img/stats.jpeg" alt="statistiche">
+
+                            <div class="card-body">
+                                <h5 class="fs-6">Utenti Attivi</h5>
+
+                                <p class="__my-font-size-2">Lista degli utenti attivi in piattaforma nello scorso mese</p>
+                                
+                                <ul class="list-group __my-font-size-2">
+                                    <li class="list-group-item">Gennaio: 1200</li>
+                                    <li class="list-group-item">Febbraio: 800</li>
+                                    <li class="list-group-item">Marzo: 1500</li>
+                                    <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
+                                </ul>
+                                
+                            </div>
                         </div>
 
                     </div>
